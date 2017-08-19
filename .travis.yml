@@ -1,0 +1,28 @@
+language: go
+
+os:
+  - osx
+
+go:
+  - 1.6
+  - 1.7
+  - tip
+
+matrix:
+  fast_finish: true
+  allow_failures:
+    - go: tip
+
+install:
+  - "mkdir -p $GOPATH/github.com/mercury"
+  - "rsync -az ${TRAVIS_BUILD_DIR}/ $HOME/gopath/src/github.com/AriseBank/apollo-controller/"
+
+script:
+  - "make client"
+  - "go test ./"
+  - "go test ./client"
+  - "go test ./mercury"
+  - "go test ./shared"
+
+notifications:
+  webhooks: https://linuxcontainers.org/webhook-mercurybot/

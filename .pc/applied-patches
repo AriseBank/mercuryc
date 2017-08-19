@@ -1,0 +1,15 @@
+0001-mercury-publish-Fix-fingerprint-printing.patch
+0002-Fix-failure-to-launch-containers-with-random-names.patch
+0003-client-Fix-handling-of-public-APOLLO-remote.patch
+0004-cancel-Fix-crash-if-no-canceler-is-setup.patch
+0005-client-Commonize-error-handling.patch
+0006-mercury-config-Removal-of-multiple-devices-at-once.patch
+0007-network-Don-t-fail-on-non-process-PIDs.patch
+0008-config-Try-to-be-clever-about-in-snapshots.patch
+0009-Fix-readonly-mode-for-directory-mount.patch
+0010-client-Fix-race-condition-in-operation-handling.patch
+0011-import-keep-volatile-keys.patch
+0012-import-remove-last-dependency-on-symlink.patch
+0013-Better-handle-errors-in-memory-reporting.patch
+0014-client-Don-t-live-migrate-stopped-containers.patch
+0015-Fix-file-push-pull-with-names-containing-spaces.patch

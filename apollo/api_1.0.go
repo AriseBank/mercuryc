@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"syscall"
 
-	"gopkg.in/mercury/go-mercury.v2"
+	"github.com/AriseBank/apollo-controller/mercury"
 
 	"github.com/AriseBank/apollo-controller/shared"
 	"github.com/AriseBank/apollo-controller/shared/api"

@@ -9,7 +9,7 @@ package main
 import (
 	"log"
 
-	"gopkg.in/mercury/go-mercury.v2"
+	"github.com/AriseBank/apollo-controller/mercury"
 )
 
 func main() {

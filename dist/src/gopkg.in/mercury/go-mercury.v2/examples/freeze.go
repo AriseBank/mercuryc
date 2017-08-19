@@ -11,7 +11,7 @@ import (
 	"log"
 	"time"
 
-	"gopkg.in/mercury/go-mercury.v2"
+	"github.com/AriseBank/apollo-controller/mercury"
 )
 
 var (

@@ -12,11 +12,11 @@ This package requires [MERCURY 1.x](https://github.com/mercury/mercury/releases)
 
 To install it, run:
 
-    go get gopkg.in/mercury/go-mercury.v2
+    go get github.com/AriseBank/apollo-controller/mercury
 
 ## Documentation
 
-Documentation can be found at [GoDoc](http://godoc.org/gopkg.in/mercury/go-mercury.v2).
+Documentation can be found at [GoDoc](http://godoc.org/github.com/AriseBank/apollo-controller/mercury).
 
 ## Stability
 

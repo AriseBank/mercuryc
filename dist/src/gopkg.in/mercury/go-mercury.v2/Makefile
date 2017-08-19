@@ -29,7 +29,7 @@ cover:
 	@`which go` tool cover -func=coverage.out
 
 doc:
-	@`which godoc` gopkg.in/mercury/go-mercury.v2 | less
+	@`which godoc` github.com/AriseBank/apollo-controller/mercury | less
 
 vet:
 	@echo "$(OK_COLOR)==> Running go vet $(NO_COLOR)"
