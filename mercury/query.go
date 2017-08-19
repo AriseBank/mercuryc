@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/lxc/lxd/lxc/config"
-	"github.com/lxc/lxd/shared/api"
-	"github.com/lxc/lxd/shared/gnuflag"
-	"github.com/lxc/lxd/shared/i18n"
+	"github.com/AriseBank/apollo-controller/mercury/config"
+	"github.com/AriseBank/apollo-controller/mercury/shared/api"
+	"github.com/AriseBank/apollo-controller/mercury/shared/gnuflag"
+	"github.com/AriseBank/apollo-controller/mercury/shared/i18n"
 )
 
 type queryCmd struct {
@@ -23,8 +23,8 @@ func (c *queryCmd) showByDefault() bool {
 
 func (c *queryCmd) usage() string {
 	return i18n.G(
-		`Usage: lxc query [-X <action>] [-d <data>] [--wait] [--raw] [<remote>:]<API path>
-Send a raw query to LXD.
+		`Usage: mercury query [-X <action>] [-d <data>] [--wait] [--raw] [<remote>:]<API path>
+Send a raw query to APOLLO.
 *Examples*
 lxc query -X DELETE --wait /1.0/containers/c1
     Delete local container "c1".`)
